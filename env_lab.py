@@ -43,3 +43,10 @@ if ENVIRONMENT_IN_USE == "sandbox":
         "username": "devnetuser",
         "password": "Cisco123!"
     }
+elif ENVIRONMENT_IN_USE == "GE_Prod":
+    dnac = {
+        "host": "10.250.2.66",
+        "port": 443,
+        "username": "tse_admin",
+        "password": "B@s3b@llRul3s1912"
+    }
