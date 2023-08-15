@@ -33,7 +33,7 @@ SOFTWARE.
 #     sandbox - Cisco DevNet Always-On / Reserved Sandboxes
 #     express - Cisco DevNet Express Lab Backend
 #     custom  - Your Own "Custom" Lab Backend
-ENVIRONMENT_IN_USE = "sandbox"
+ENVIRONMENT_IN_USE = "GE_Prod"
 
 # Set the 'Environment Variables' based on the lab environment in use
 if ENVIRONMENT_IN_USE == "sandbox":
